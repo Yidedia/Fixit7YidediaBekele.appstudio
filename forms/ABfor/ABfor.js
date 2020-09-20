@@ -1,6 +1,6 @@
 //var
 let names = ['Bob', 'Janet', 'Tom', 'Bob', 'Randy', 'Elizabeth', 'Kim', 'Nancy']
 
-for (i = (names.length - 1); i >=0; i--) {
-  console.log(names[i])
+for (let k = (names.length - 1); k >=0; k--) {
+  console.log(names[k])
   }
