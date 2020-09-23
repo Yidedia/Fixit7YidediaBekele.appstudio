@@ -1,14 +1,19 @@
 // variable 
+let cities = []
 let fName = prompt('Enter first name')
-let lName = prompt('Enter last name')
-i = 0
-while(i < fName.length) {
-  console.log(`Letter ${i + 1} is: ${fName.charAt(i)}`);
-  i++;
+cities.push(fName)
+let userCity = 'start'
+while(userCity != 'stop') {
+  userCity = (prompt('Enter city')).toLowerCase()
+  if (userCity == 'stop') {
+    break;
   }
-
-j = 0
-while(j < lName.length) {
-  console.log(`Letter ${j + 1} is: ${lName.charAt(j)}`);
-  j++;
+  cities.push(userCity)
+  
+  }
+  
+i = 1
+while(i < cities.length) {
+  console.log(cities[i])
+  i++
   }
