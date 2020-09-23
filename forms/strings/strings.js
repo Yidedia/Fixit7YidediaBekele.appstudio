@@ -12,7 +12,7 @@ let found
 if (completeString.includes("Henry") == true) {
   found = 'Henry was in the quote string'
 } else {
-  found = 'Henry was' + 'NOT'.bold() + 'in the quote string'
+  found = 'Henry was NOT in the quote string'
 }
 console.log(found)
 // var F
